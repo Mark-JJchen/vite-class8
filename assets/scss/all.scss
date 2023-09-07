@@ -1,0 +1,22 @@
+// google font
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Saira+Extra+Condensed:wght@300&family=Shrikhand&display=swap");
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/functions"; // 載入 function
+@import "./utils/variables";
+@import "../../node_modules/bootstrap"; // 載入剩下 bootstarp
+@import "./utils/utility"; //加上原先語法未支援斷點的像是 font-size、border、position
+@import "bootstrap/scss/utilities/api"; // api 載入前要先載入utility
+
+// component
+@import "./component/gradient";
+@import "./component/custom-colors";
+
+@import "./base/base";
+@import "./layout/nav";
+@import "./layout/banner";
+@import "./layout/news.scss";
+@import "./layout/swiper";
+@import "./layout/contactus";
+@import "./layout/footer";
+@import "./layout/info";

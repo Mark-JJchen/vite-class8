@@ -1,0 +1,48 @@
+.shareCard {
+    padding: 40px;
+    height: 416px;
+    @include media-breakpoint-down(md) {
+        height: auto;
+    }
+}
+
+.swiper {
+    overflow: initial;
+}
+
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+    background-color: white;
+}
+
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+    background-color: gray;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+        "FILL" 1,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 24;
+}
+.bg-radial-gradient {
+    @include radial-gradient(#000, #28085c);
+}
+
+.bg-text {
+    position: absolute;
+    font-family: Shrikhand;
+    width: 100%;
+    font-size: 400px;
+    // bottom: 0;
+    opacity: 0.04;
+    transform: translate(50%, -420px);
+    left: -50% !important;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.icon-60 {
+    font-size: 60px;
+}

@@ -1,0 +1,49 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Shrikhand;
+    font-family: Noto Sans CJK TC;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ff-main {
+    font-family: Shrikhand;
+}
+.ff-sub {
+    font-family: Noto Sans CJK TC;
+}
+.ff-saira {
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.spacing {
+    &-16 {
+        letter-spacing: 16px;
+    }
+    &-20 {
+        letter-spacing: 20px;
+    }
+    &-32 {
+        letter-spacing: 32px;
+    }
+    &-48 {
+        letter-spacing: 48px;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .spacing {
+        &-48 {
+            letter-spacing: 8px;
+        }
+    }
+}

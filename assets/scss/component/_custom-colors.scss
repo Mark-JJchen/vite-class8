@@ -1,0 +1,16 @@
+$primary-100: #e9e2f3;
+$primary-200: #7000ff;
+$primary-300: #6e01f8;
+$primary-400: #380c7e;
+// ...其餘紫色
+
+$custom-colors: (
+    "primary-100": $primary-100,
+    "primary-200": $primary-200,
+    "primary-300": $primary-300,
+    "primary-400": $primary-400,
+    // 依此類推...
+);
+
+// 合併到色彩設定
+$theme-colors: map-merge($theme-colors, $custom-colors);

@@ -1,0 +1,16 @@
+.link-hover:hover {
+  color: $brand-06 !important;
+}
+
+nav {
+  height: 80px;
+}
+.padding-nav {
+  height: 40px;
+}
+
+@include media-breakpoint-down(md) {
+  .navbar-collapse {
+    @include gradient-y(#7000ff, #11002d);
+  }
+}

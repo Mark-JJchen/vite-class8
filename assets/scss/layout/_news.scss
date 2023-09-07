@@ -1,0 +1,7 @@
+.bg-news {
+    @include radial-gradient(#28085c, #000);
+}
+
+.news a:hover {
+    color: gray !important;
+}

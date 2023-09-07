@@ -1,0 +1,7 @@
+.info-hover:hover {
+    color: rgb(189, 187, 187);
+    .info-img {
+        transition: all 0.5s;
+        transform: translateX(20px);
+    }
+}
