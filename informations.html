@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <title>ALPHABOX+</title>
+  <script type="module" crossorigin src="/vite-class8/assets/main-d11b179f.js"></script>
+  <link rel="stylesheet" href="/vite-class8/assets/main-03f0a4a9.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-brand-01 navbar-expand-lg position-fixed  z-index-100 w-100 ">
+    <div class="container d-flex justify-content-between align-items-center px-0">
+        <a class="ff-main" href="index.html">
+            <h1 class="text-white">ALPHABOX+</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+            aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+            <ul class="navbar-nav d-md-flex justify-content-center text-center gap-40 flex-md-grow-1">
+                <li><a class="fs-16 fw-bolder link-light link-hover" href="#">產品</a></li>
+                <li><a class="fs-16 fw-bolder link-light link-hover" href="#">關於我們</a></li>
+                <li><a class="fs-16 fw-bolder link-light link-hover" href="informations.html">最新消息</a></li>
+                <li><a class="fs-16 fw-bolder link-light link-hover" href="#">FAQ</a></li>
+                <li><a class="fs-16 fw-bolder link-light link-hover" href="#">聯絡我們</a></li>
+            </ul>
+            <ul class="navbar-nav d-md-flex gap-4 mb-0 list-unstyled align-items-center mt-40 mt-lg-0">
+                <li><a class="d-block fs-16 link-light link-hover  " href="">註冊</a></li>
+                <li><a class="d-block fs-16 link-light link-hover" href="">登入</a></li>
+                <li><button class="d-flex align-items-center py-8 px-16 border rounded-1  "><span
+                            class="material-symbols-outlined me-1 ">
+                            point_scan
+                        </span>訂閱</button></li>
+            </ul>
+        </div>
+    </div>
+</nav>        <div class="padding-nav"></div>
+        <div class="container-fluid  bg-radial-gradient py-60 pt-md-200 pb-md-120">
+    <h2 class="fs-48 text-center spacing-48 ">最新消息</h2>
+    <ul class="gy-5 list-unstyled mt-60">
+        <li class="col-12  info-hover position-relative">
+            <div class="row d-flex justify-content-between justify-content-md-center align-items-center px-16 px-md-0">
+                <div class="col-1 fs-128">1</div>
+                <div class="col-10 col-md-2">
+                    <img class=" d-none d-md-block " src="/vite-class8/assets/news-14432e03.png" width="196" height="226" alt="">
+                    <img class="img-fluid d-block d-md-none" src="/vite-class8/assets/news_mobile-6c67b1fc.png" alt="">
+                </div>
+                <div class=" col-md-6 border-top border-bottom py-40 px-12">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKQSURBVHgBnVU9bFMxEL4zLMmSCJUCSwMRwysjLUtRBRVDuyDIAgsSMMCGxMLGQCXKACxITCxUykAnqFgKAykBgphQw8/Ma5hgaVIJtup69nu2zy/vSW0v8fN75/N3d5/PNpbUCIEW/USE3Qjyj4DE17AoorypJED8UwJ7KwQJLuE0tkJMDEz0rAnNLTYFwHIIM+6Dd/5Q4QwsTOZtaxn+bf2B/1t/YeXdS0cPAeWZO1Fe7ZdCpyZTzmc30SeOpG0yQqGDTKKY4TIbF3oA/Y5+Wvok9x5SxFI7OgZfvragVhsLIs0TStOdPnsa3rRewfSZKQgDZoOSOkim4Yjpu2s/yEpz8QVFxyaM/sP7jtO3Vz9RWY3SkQPH6emTZ17PNiXWl007ZJp3wO3m9VuUlfVfPbp/72HogN8X5h9Rf2MwZH+pcbXYQVQ/aaLeq7RXO5zxJJX3JeC6dw7KLrVRE0Ucr+8YuLv2nWZnGi5q2YIMso5uMGVx3CsE3mCK7ty+mwtsaVKySkxNE7ldUa1WoFqpQJFs9gcw6G8WjKaVJyO3FTA7c9GkvVPRhVBIkaQkqk/Q6+UV2qs0ny/RuF5k5+AwBRtNb5TzF+aCRPtMwcL8Y/jW/el0H9uf4QHrsvRcuXaZN92Uo9tRZDPQFMl6by4umY2mowk3WsfoxuuTxsZKzFTZyHMpKqX8awDdawO7LsMO/GaK2JGutiigJ3G0358rfEDxwaXTnzvXSFMk1wf1gaJKWHrxbzhRPyWqh1yv/CQUl59xmR7dBAC7u0rtCmhMNazOfIsbDVy2+aDpaGCHmksQQyElMt2CSIU5WQT0QSjIwHlAdBOKhdJ/aplePiZyFA7COwllfFAYeWCLOUwmum0uP6WNet8+TwAAAABJRU5ErkJggg==" alt=""><span
+                        class=" fw-bold spacing-16 ms-16">2023.06.30</span>
+                    <p class="mt-8">產品升級公告</p>
+                    <p class="mt-12">榮幸地宣布，ALPHABOX+
+                        已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！
+                    </p>
+                </div>
+                <div class="col-md-1 mt-auto mb-16 info-img d-none d-md-block "><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7dfBCYAwDIXh1AV0FFdwEuukruAmusEzhYIXoRIjRHgfBHoqPy09VISI6D8AjGUkohq314kXqVEZF0aaMdILI70w0os1MjU2LZsM4ifrzHV96EwppU2sNHDFt5on2UlwT664Fz+LeF6xJ0R+yYyzYpwV46wY9waifzsLRP64ExHdOwG1VOdhVl7fHAAAAABJRU5ErkJggg==" alt="">
+                </div>
+                <a href="#" class="stretched-link link-hover"></a>
+            </div>
+        </li>
+
+        <li class="col-12  info-hover position-relative mt-16 mt-md-60">
+            <div class="row d-flex justify-content-between justify-content-md-center align-items-center px-16 px-md-0">
+                <div class="col-1 fs-128">2</div>
+                <div class="col-10 col-md-2">
+                    <img class=" d-none d-md-block " src="/vite-class8/assets/thanks-18d55963.png" width="196" height="226"
+                        alt="">
+                    <img class="img-fluid d-block d-md-none" src="/vite-class8/assets/thanks_mobile-44b2706d.png" alt="">
+                </div>
+                <div class=" col-md-6 border-top border-bottom py-40 px-12">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKQSURBVHgBnVU9bFMxEL4zLMmSCJUCSwMRwysjLUtRBRVDuyDIAgsSMMCGxMLGQCXKACxITCxUykAnqFgKAykBgphQw8/Ma5hgaVIJtup69nu2zy/vSW0v8fN75/N3d5/PNpbUCIEW/USE3Qjyj4DE17AoorypJED8UwJ7KwQJLuE0tkJMDEz0rAnNLTYFwHIIM+6Dd/5Q4QwsTOZtaxn+bf2B/1t/YeXdS0cPAeWZO1Fe7ZdCpyZTzmc30SeOpG0yQqGDTKKY4TIbF3oA/Y5+Wvok9x5SxFI7OgZfvragVhsLIs0TStOdPnsa3rRewfSZKQgDZoOSOkim4Yjpu2s/yEpz8QVFxyaM/sP7jtO3Vz9RWY3SkQPH6emTZ17PNiXWl007ZJp3wO3m9VuUlfVfPbp/72HogN8X5h9Rf2MwZH+pcbXYQVQ/aaLeq7RXO5zxJJX3JeC6dw7KLrVRE0Ucr+8YuLv2nWZnGi5q2YIMso5uMGVx3CsE3mCK7ty+mwtsaVKySkxNE7ldUa1WoFqpQJFs9gcw6G8WjKaVJyO3FTA7c9GkvVPRhVBIkaQkqk/Q6+UV2qs0ny/RuF5k5+AwBRtNb5TzF+aCRPtMwcL8Y/jW/el0H9uf4QHrsvRcuXaZN92Uo9tRZDPQFMl6by4umY2mowk3WsfoxuuTxsZKzFTZyHMpKqX8awDdawO7LsMO/GaK2JGutiigJ3G0358rfEDxwaXTnzvXSFMk1wf1gaJKWHrxbzhRPyWqh1yv/CQUl59xmR7dBAC7u0rtCmhMNazOfIsbDVy2+aDpaGCHmksQQyElMt2CSIU5WQT0QSjIwHlAdBOKhdJ/aplePiZyFA7COwllfFAYeWCLOUwmum0uP6WNet8+TwAAAABJRU5ErkJggg==" alt=""><span
+                        class=" fw-bold spacing-16 ms-16">2023.06.01</span>
+                    <p class="mt-8">限時優惠活動</p>
+                    <p class="mt-12">為答謝廣大用戶的支持，本月將舉辦一場限時優惠活動。購買 ALPHABOX+
+                        的顧客，皆可享受九折優惠。機會難得，請勿錯過此良機！本月將舉辦一場限時優惠活動。購買
+                        ALPHABOX+ 的顧客，皆可享受九折優惠。
+                    </p>
+                </div>
+                <div class="col-md-1 mt-auto mb-16 info-img d-none d-md-block "><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7dfBCYAwDIXh1AV0FFdwEuukruAmusEzhYIXoRIjRHgfBHoqPy09VISI6D8AjGUkohq314kXqVEZF0aaMdILI70w0os1MjU2LZsM4ifrzHV96EwppU2sNHDFt5on2UlwT664Fz+LeF6xJ0R+yYyzYpwV46wY9waifzsLRP64ExHdOwG1VOdhVl7fHAAAAABJRU5ErkJggg==" alt="">
+                </div>
+                <a href="#" class="stretched-link link-hover"></a>
+            </div>
+        </li>
+
+        <li class="col-12  info-hover position-relative mt-16 mt-md-60">
+            <div class="row d-flex justify-content-between justify-content-md-center align-items-center px-16 px-md-0">
+                <div class="col-1 fs-128">3</div>
+                <div class="col-10 col-md-2">
+                    <img class=" d-none d-md-block " src="/vite-class8/assets/exhibition-02e9752b.png" width="196" height="226"
+                        alt="">
+                    <img class="img-fluid d-block d-md-none" src="/vite-class8/assets/exhibition_mobile-cd70112d.png" alt="">
+                </div>
+                <div class=" col-md-6 border-top border-bottom py-40 px-12">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKQSURBVHgBnVU9bFMxEL4zLMmSCJUCSwMRwysjLUtRBRVDuyDIAgsSMMCGxMLGQCXKACxITCxUykAnqFgKAykBgphQw8/Ma5hgaVIJtup69nu2zy/vSW0v8fN75/N3d5/PNpbUCIEW/USE3Qjyj4DE17AoorypJED8UwJ7KwQJLuE0tkJMDEz0rAnNLTYFwHIIM+6Dd/5Q4QwsTOZtaxn+bf2B/1t/YeXdS0cPAeWZO1Fe7ZdCpyZTzmc30SeOpG0yQqGDTKKY4TIbF3oA/Y5+Wvok9x5SxFI7OgZfvragVhsLIs0TStOdPnsa3rRewfSZKQgDZoOSOkim4Yjpu2s/yEpz8QVFxyaM/sP7jtO3Vz9RWY3SkQPH6emTZ17PNiXWl007ZJp3wO3m9VuUlfVfPbp/72HogN8X5h9Rf2MwZH+pcbXYQVQ/aaLeq7RXO5zxJJX3JeC6dw7KLrVRE0Ucr+8YuLv2nWZnGi5q2YIMso5uMGVx3CsE3mCK7ty+mwtsaVKySkxNE7ldUa1WoFqpQJFs9gcw6G8WjKaVJyO3FTA7c9GkvVPRhVBIkaQkqk/Q6+UV2qs0ny/RuF5k5+AwBRtNb5TzF+aCRPtMwcL8Y/jW/el0H9uf4QHrsvRcuXaZN92Uo9tRZDPQFMl6by4umY2mowk3WsfoxuuTxsZKzFTZyHMpKqX8awDdawO7LsMO/GaK2JGutiigJ3G0358rfEDxwaXTnzvXSFMk1wf1gaJKWHrxbzhRPyWqh1yv/CQUl59xmR7dBAC7u0rtCmhMNazOfIsbDVy2+aDpaGCHmksQQyElMt2CSIU5WQT0QSjIwHlAdBOKhdJ/aplePiZyFA7COwllfFAYeWCLOUwmum0uP6WNet8+TwAAAABJRU5ErkJggg==" alt=""><span
+                        class=" fw-bold spacing-16 ms-16">2023.06.30</span>
+                    <p class="mt-8">參加科技展覽</p>
+                    <p class="mt-12">
+                        本公司將參與今年的台灣國際科技展覽，屆時將展示最新款的3D立體陪伴機器人。誠摯邀請您親臨現場，親自體驗這款創新的產品！屆時將展示最新款的3D立體陪伴機器人。誠摯邀請您親臨現場，親自體驗這款創新的產品！
+                    </p>
+                </div>
+                <div class="col-md-1 mt-auto mb-16 info-img d-none d-md-block "><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7dfBCYAwDIXh1AV0FFdwEuukruAmusEzhYIXoRIjRHgfBHoqPy09VISI6D8AjGUkohq314kXqVEZF0aaMdILI70w0os1MjU2LZsM4ifrzHV96EwppU2sNHDFt5on2UlwT664Fz+LeF6xJ0R+yYyzYpwV46wY9waifzsLRP64ExHdOwG1VOdhVl7fHAAAAABJRU5ErkJggg==" alt="">
+                </div>
+                <a href="#" class="stretched-link link-hover"></a>
+            </div>
+        </li>
+
+        <li class="col-12  info-hover position-relative mt-16 mt-md-60">
+            <div class="row d-flex justify-content-between justify-content-md-center align-items-center px-16 px-md-0">
+                <div class="col-1 fs-128">4</div>
+                <div class="col-10 col-md-2">
+                    <img class=" d-none d-md-block " src="/vite-class8/assets/update-13105fc1.png" width="196" height="226"
+                        alt="">
+                    <img class="img-fluid d-block d-md-none" src="/vite-class8/assets/update_mobile-222f5fe0.png" alt="">
+                </div>
+                <div class=" col-md-6 border-top border-bottom py-40 px-12">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKQSURBVHgBnVU9bFMxEL4zLMmSCJUCSwMRwysjLUtRBRVDuyDIAgsSMMCGxMLGQCXKACxITCxUykAnqFgKAykBgphQw8/Ma5hgaVIJtup69nu2zy/vSW0v8fN75/N3d5/PNpbUCIEW/USE3Qjyj4DE17AoorypJED8UwJ7KwQJLuE0tkJMDEz0rAnNLTYFwHIIM+6Dd/5Q4QwsTOZtaxn+bf2B/1t/YeXdS0cPAeWZO1Fe7ZdCpyZTzmc30SeOpG0yQqGDTKKY4TIbF3oA/Y5+Wvok9x5SxFI7OgZfvragVhsLIs0TStOdPnsa3rRewfSZKQgDZoOSOkim4Yjpu2s/yEpz8QVFxyaM/sP7jtO3Vz9RWY3SkQPH6emTZ17PNiXWl007ZJp3wO3m9VuUlfVfPbp/72HogN8X5h9Rf2MwZH+pcbXYQVQ/aaLeq7RXO5zxJJX3JeC6dw7KLrVRE0Ucr+8YuLv2nWZnGi5q2YIMso5uMGVx3CsE3mCK7ty+mwtsaVKySkxNE7ldUa1WoFqpQJFs9gcw6G8WjKaVJyO3FTA7c9GkvVPRhVBIkaQkqk/Q6+UV2qs0ny/RuF5k5+AwBRtNb5TzF+aCRPtMwcL8Y/jW/el0H9uf4QHrsvRcuXaZN92Uo9tRZDPQFMl6by4umY2mowk3WsfoxuuTxsZKzFTZyHMpKqX8awDdawO7LsMO/GaK2JGutiigJ3G0358rfEDxwaXTnzvXSFMk1wf1gaJKWHrxbzhRPyWqh1yv/CQUl59xmR7dBAC7u0rtCmhMNazOfIsbDVy2+aDpaGCHmksQQyElMt2CSIU5WQT0QSjIwHlAdBOKhdJ/aplePiZyFA7COwllfFAYeWCLOUwmum0uP6WNet8+TwAAAABJRU5ErkJggg==" alt=""><span
+                        class=" fw-bold spacing-16 ms-16">2023.06.30</span>
+                    <p class="mt-8">新功能上線</p>
+                    <p class="mt-12">
+                        為使您的3D立體陪伴機器人更趨完善，我們不懈地研發創新功能。近期，我們新推出智慧家居控制功能，使您的機器人能更便利地協助您操作家中各類智能設備。近期，我們新推出智慧家居控制功能。
+                    </p>
+                </div>
+                <div class="col-md-1 mt-auto mb-16 info-img d-none d-md-block "><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7dfBCYAwDIXh1AV0FFdwEuukruAmusEzhYIXoRIjRHgfBHoqPy09VISI6D8AjGUkohq314kXqVEZF0aaMdILI70w0os1MjU2LZsM4ifrzHV96EwppU2sNHDFt5on2UlwT664Fz+LeF6xJ0R+yYyzYpwV46wY9waifzsLRP64ExHdOwG1VOdhVl7fHAAAAABJRU5ErkJggg==" alt="">
+                </div>
+                <a href="#" class="stretched-link link-hover"></a>
+            </div>
+        </li>
+
+        <li class="col-12  info-hover position-relative mt-16 mt-md-60">
+            <div class="row d-flex justify-content-between justify-content-md-center align-items-center px-16 px-md-0">
+                <div class="col-1 fs-128">5</div>
+                <div class="col-10 col-md-2">
+                    <img class=" d-none d-md-block " src="/vite-class8/assets/interview-37eb7c0f.png" width="196" height="226"
+                        alt="">
+                    <img class="img-fluid d-block d-md-none" src="/vite-class8/assets/interview_mobile-63d296c6.png" alt="">
+                </div>
+                <div class=" col-md-6 border-top border-bottom py-40 px-12">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKQSURBVHgBnVU9bFMxEL4zLMmSCJUCSwMRwysjLUtRBRVDuyDIAgsSMMCGxMLGQCXKACxITCxUykAnqFgKAykBgphQw8/Ma5hgaVIJtup69nu2zy/vSW0v8fN75/N3d5/PNpbUCIEW/USE3Qjyj4DE17AoorypJED8UwJ7KwQJLuE0tkJMDEz0rAnNLTYFwHIIM+6Dd/5Q4QwsTOZtaxn+bf2B/1t/YeXdS0cPAeWZO1Fe7ZdCpyZTzmc30SeOpG0yQqGDTKKY4TIbF3oA/Y5+Wvok9x5SxFI7OgZfvragVhsLIs0TStOdPnsa3rRewfSZKQgDZoOSOkim4Yjpu2s/yEpz8QVFxyaM/sP7jtO3Vz9RWY3SkQPH6emTZ17PNiXWl007ZJp3wO3m9VuUlfVfPbp/72HogN8X5h9Rf2MwZH+pcbXYQVQ/aaLeq7RXO5zxJJX3JeC6dw7KLrVRE0Ucr+8YuLv2nWZnGi5q2YIMso5uMGVx3CsE3mCK7ty+mwtsaVKySkxNE7ldUa1WoFqpQJFs9gcw6G8WjKaVJyO3FTA7c9GkvVPRhVBIkaQkqk/Q6+UV2qs0ny/RuF5k5+AwBRtNb5TzF+aCRPtMwcL8Y/jW/el0H9uf4QHrsvRcuXaZN92Uo9tRZDPQFMl6by4umY2mowk3WsfoxuuTxsZKzFTZyHMpKqX8awDdawO7LsMO/GaK2JGutiigJ3G0358rfEDxwaXTnzvXSFMk1wf1gaJKWHrxbzhRPyWqh1yv/CQUl59xmR7dBAC7u0rtCmhMNazOfIsbDVy2+aDpaGCHmksQQyElMt2CSIU5WQT0QSjIwHlAdBOKhdJ/aplePiZyFA7COwllfFAYeWCLOUwmum0uP6WNet8+TwAAAABJRU5ErkJggg==" alt=""><span
+                        class=" fw-bold spacing-16 ms-16">2023.06.30</span>
+                    <p class="mt-8">用戶見面會</p>
+                    <p class="mt-12">
+                        為進一步滿足客戶需求，並優化產品性能，我們將舉行用戶見面會。屆時，我們將向您展示我們的研發成果，同時聆聽您的意見和建議，讓我們共同打造更完美的產品！同時聆聽您的意見和建議！
+                    </p>
+                </div>
+                <div class="col-md-1 mt-auto mb-16 info-img d-none d-md-block "><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7dfBCYAwDIXh1AV0FFdwEuukruAmusEzhYIXoRIjRHgfBHoqPy09VISI6D8AjGUkohq314kXqVEZF0aaMdILI70w0os1MjU2LZsM4ifrzHV96EwppU2sNHDFt5on2UlwT664Fz+LeF6xJ0R+yYyzYpwV46wY9waifzsLRP64ExHdOwG1VOdhVl7fHAAAAABJRU5ErkJggg==" alt="">
+                </div>
+                <a href="#" class="stretched-link link-hover"></a>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="list-unstyled d-flex gap-32 justify-content-center fs-24 mb-0 ">
+        <li><a href="" class="info-hover">1</a></li>
+        <li><a href="" class="info-hover">2</a></li>
+        <li><a href="" class="info-hover">3</a></li>
+    </ul>
+
+</div>            <footer class="container-fluid bg-white py-12 py-md-52">
+    <footer
+        class="container d-flex flex-column flex-md-row justify-content-md-between align-items-md-center text-black  ">
+        <div>
+            <h4 class="fs-32 ff-main">ALPHABOX+</h4>
+            <p class="fw-bold">Copyright © 2023 Hexschool.</p>
+        </div>
+        <span class="material-symbols-outlined fs-80">
+            emergency
+        </span>
+        <ul class="d-flex flex-column flex-md-row list-unstyled gap-1 gap-md-4 mb-0 fw-bold ">
+            <li>關於我們</li>
+            <li>產品資訊</li>
+            <li>常見問題</li>
+            <li>隱私政策</li>
+        </ul>
+    </footer>
+</footer>
+                
+</body>
+
+</html>
